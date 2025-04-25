@@ -34,7 +34,7 @@ class LayerManager {
         null,
         Paint()
           ..blendMode = layer.blendMode
-          ..opacity = layer.opacity,
+          ..color = Color.fromRGBO(255, 255, 255, layer.opacity),  // Changed this line
       );
       if (layer.content != null) {
         canvas.drawPicture(layer.content!);

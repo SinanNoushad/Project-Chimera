@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:tflite_flutter/tflite_flutter.dart';
 import 'dart:ui' as ui;
+import 'package:flutter/material.dart';
 
 class AIMLHooks {
   late Interpreter _interpreter;
