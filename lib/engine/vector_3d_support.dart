@@ -1,6 +1,8 @@
 import 'dart:ui';
 import 'package:vector_math/vector_math_64.dart';
 import '../plugins/vector_3d/vector_3d_plugin.dart';
+import 'package:flutter/material.dart';
+
 
 class Vector3DSupport {
   final Vector3DPlugin _plugin = Vector3DPlugin();
