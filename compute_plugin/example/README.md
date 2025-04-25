@@ -1,6 +1,6 @@
-# project_chimera
+# compute_plugin_example
 
-A new Flutter project.
+Demonstrates how to use the compute_plugin plugin.
 
 ## Getting Started
 
